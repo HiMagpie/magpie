@@ -1,0 +1,19 @@
+syntax="proto2";
+
+package protos;
+
+message Msg {
+    required uint64 msg_id = 1;
+    optional bool ring = 2;
+    optional bool vibrate = 3;
+    optional bool cleanable = 4;
+    optional int32 trans = 5;
+    optional string begin = 6;
+    optional string end = 7;
+
+    optional string title = 8;
+    optional string text = 9;
+    optional string logo = 10;
+    optional string url = 11;
+    optional int32 ctime = 12;
+}

@@ -1,0 +1,7 @@
+syntax="proto2";
+
+package protos;
+
+message MsgAck{
+    required uint64 msg_id = 1;
+}

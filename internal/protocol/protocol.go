@@ -1,0 +1,13 @@
+package protocol
+
+const (
+	TYP_LOGIN = 101
+	TYP_LOGIN_ACK = 102
+
+	TYP_HEARTBEAT = 111
+
+	TYP_MSG = 201
+	TYP_MSG_ACK = 202
+
+	TYP_NOTIFY = 301
+)

@@ -1,0 +1,5 @@
+package workers
+
+func ConsumeLoginVerifyMq() {
+
+}

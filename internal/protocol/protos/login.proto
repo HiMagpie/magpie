@@ -1,0 +1,8 @@
+syntax="proto2";
+
+package protos;
+
+message Login {
+    // cid to login
+    required string cid = 1;
+}
